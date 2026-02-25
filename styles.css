@@ -59,7 +59,7 @@ body {
     transition: opacity 0.3s;
     letter-spacing: 2px;
 }
-.collapsed .vertical-title { opacity: 1; }
+.collapsed .vertical-title { opacity: 1; color: #FF5722; }
 
 .column-content {
     padding: 30px;
@@ -172,4 +172,5 @@ body {
 
 /* Scrollbar */
 .column-content::-webkit-scrollbar { width: 6px; }
+
 .column-content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 10px; }
